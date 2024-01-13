@@ -7,12 +7,13 @@ A simple React application demonstrating the use of effects and refs by implemen
 ## Features
 
 - Fetch and display a deck of cards.
-- Draw a card on button click until the deck is exhausted.
+- Auto-draw a card every second on button click until the deck is exhausted.
+- Toggle between 'Start drawing' and 'Stop drawing' for card drawing control.
 - Alert when no cards are left in the deck.
 
 ## Technologies
 
-- React (Hooks: useState, useEffect)
+- React (Hooks: useState, useEffect, useCallback)
 - Deck of Cards API
 
 ## Setup
@@ -30,7 +31,7 @@ To run this project locally:
 
 ## Learning Outcomes
 
-This project was a practical exercise in understanding React's useEffect and useRef hooks, and handling API data in a React application.
+This project was a practical exercise in understanding React's useEffect, useCallback, and useState hooks, and handling API data in a React application. The implementation of the auto-draw feature further demonstrated the use of intervals and state management.
 
 ## Acknowledgments
 
